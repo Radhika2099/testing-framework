@@ -1,0 +1,25 @@
+{
+  "name": "tft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Project"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "got": "^12.0.4",
+    "mocha": "^10.0.0",
+    "require": "^2.4.20"
+  }
+}
