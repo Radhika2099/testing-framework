@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test/test.js" ,
+    "test:data" : "mocha test/test.spec.js" ,
+    "testt" : "mocha client/client.take.data.js"
   },
   "repository": {
     "type": "git",
